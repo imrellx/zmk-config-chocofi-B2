@@ -64,5 +64,8 @@
         COMBO(del_word_win, 6 7 8, &kp LC(BSPC), BASE_WIN, MS_FAST)
     // mouse layer
         COMBO(mouse, 10 32, &mo MSE, BASE BASE_WIN, MS_SLOW)
+    // symbol one-shot layer
+        COMBO(ossym, 7 8, &sl SYM, BASE, MS_SLOW)
+        COMBO(ossymw, 7 8, &sl SYMW, BASE_WIN, MS_SLOW)
     };
 };
