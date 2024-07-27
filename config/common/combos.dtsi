@@ -32,7 +32,7 @@
         // COMBO(quit, 1 2, &kp LG(Q), BASE)
         // COMBO(cltab, 2 3, &kp LG(W), BASE)
         COMBO(tab, 11 12, &kp TAB, BASE BASE_WIN, MS_FAST)
-        COMBO(esc, 20 21, &esc_kcancel, BASE BASE_WIN, MS_SLOW)
+        COMBO(esc, 11 12 13, &esc_kcancel, BASE BASE_WIN, MS_SLOW)
         COMBO(ret, 12 13, &kp RET, BASE BASE_WIN, MS_FAST)
         COMBO(copy, 21 22, &kp LG(C), BASE, MS_SLOW)
         COMBO(paste, 22 23, &kp LG(V), BASE, MS_SLOW)
