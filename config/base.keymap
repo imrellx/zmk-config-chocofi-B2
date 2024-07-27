@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/bt.h>
 
 
 // layers ID definition
@@ -17,17 +18,16 @@
 #define xxx &none
 #define ___ &trans
 
+#include "common/macros.dtsi"
 #include "common/combos.dtsi"
 #include "common/extra_keys.h"
 #if WIRELESS
-    #include <dt-bindings/zmk/bt.h>
     #define BTL1  &bt BT_CLR   &bt BT_SEL 2  &pc_connect   &osx_connect
     #define BTL2  xxx          &bt BT_SEL 4  &bt BT_SEL 3  &out OUT_TOG
 #else
     #define BTL1  xxx   xxx   xxx   xxx
     #define BTL2  xxx   xxx   xxx   xxx
 #endif
-#include "common/macros.dtsi"
 
 #ifdef MOUSE_KEYS
     #include "common/mouse.dtsi"
