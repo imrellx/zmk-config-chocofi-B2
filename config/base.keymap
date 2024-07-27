@@ -363,9 +363,9 @@
             display-name = "SYM";
             bindings = <
              //╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮     ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-                xxx            &kp AT         &kp HASH       &kp AMPS       &kp PERCENT          &kp CARET      &kp PLUS       &kp ASTRK      &curr_deg      xxx
+                xxx            &kp HASH       &kp AT         &kp CARET      &kp PERCENT          &kp AMPS       &kp PLUS       &kp ASTRK      &curr_deg      xxx
              //├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤     ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
-                &kp QUESTION   &kp GRAVE      &kp BSLH       &kp PIPE       &kp TILDE            &kp UNDER      &kp MINUS      &kp SLASH      &kp EQUAL      &kp EXCL
+                &kp QUESTION   &kp GRAVE      &kp BSLH       &kp UNDER      &kp TILDE            &kp PIPE       &kp MINUS      &kp SLASH      &kp EQUAL      &kp EXCL
              //├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤     ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
                 xxx            &kp RA(GRAVE)  &kp RA(E)      &kp LT         xxx                  xxx            &kp GT         &kp SEMI       &kp COLON      xxx
              //╰──────────────┴──────────────┼──────────────┼──────────────┼──────────────┤     ├──────────────┼──────────────┼──────────────┼──────────────┴──────────────╯
